@@ -27,7 +27,6 @@ const options = {
     } else {
         userSelectedDate=selectedDates[0];
         btnEl.disabled=false;
-        console.log(userSelectedDate);
     };
   },
 };
@@ -78,4 +77,4 @@ function upDateTimer({days, hours, minutes, seconds}){
 
 function addZero(value){
     return String(value).padStart(2, "0");
-}
+};
