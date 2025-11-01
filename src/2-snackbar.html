@@ -10,32 +10,27 @@
   <body>
     <main>
       <div class="container">
-        <h1 class="main-title">
-          Snackbar
-        </h1>
+        <h1 class="main-title">Snackbar</h1>
         <a class="back-link" href="./index.html">Go back</a>
       </div>
       <form class="form">
-  <label>
-    Delay (ms)
-    <input type="number" name="delay" required />
-  </label>
-
-  <fieldset>
-    <legend>State</legend>
-    <label>
-      <input type="radio" name="state" value="fulfilled" required />
-      Fulfilled
-    </label>
-    <label>
-      <input type="radio" name="state" value="rejected" required />
-      Rejected
-    </label>
-  </fieldset>
-
-  <button type="submit">Create notification</button>
-</form>
-
+        <label class="delay">
+          Delay (ms)
+          <input type="number" name="delay" class="input-delay" required />
+        </label>
+        <fieldset class="state">
+          <legend class="stale-title">State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+        <button type="submit" class="btm-submit">Create notification</button>
+      </form>
     </main>
     <script type="module" src="./js/2-snackbar.js"></script>
   </body>

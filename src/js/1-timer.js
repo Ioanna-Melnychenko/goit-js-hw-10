@@ -78,3 +78,5 @@ function upDateTimer({days, hours, minutes, seconds}){
 function addZero(value){
     return String(value).padStart(2, "0");
 };
+
+inputEl.style.textAlign = 'left';
